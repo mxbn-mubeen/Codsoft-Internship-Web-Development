@@ -1,0 +1,438 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+
+header {
+    background-color: #000000; 
+    color: red; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto; /
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white; 
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+#home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.content {
+    text-align: center;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+    font-size: 700%;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+.content p {
+    font-size: 200%;
+    color: white;
+}
+
+
+ h3, p, img, ul, li,div,label,input {
+    margin: 0;
+    padding: 0;
+}
+
+
+#car-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: black; 
+    color: white; 
+}
+
+
+.feature {
+    text-align: justify;
+    margin: 20px;
+    width: 250px; 
+   
+}
+
+.feature img {
+    width: 300px; 
+    height: 200px;
+    
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+
+.feature ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.feature li {
+    margin: 5px 0;
+}
+
+
+.price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+
+.prebook-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prebook-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.prebook-button a:hover {
+    background-color: red;
+}
+
+/* Style the video section */
+#video-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the video section heading */
+#video-section h2 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 20px;
+    line-height: 5rem;
+}
+
+/* Style the video container */
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the video element */
+.video-container video {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#news-section {
+    padding: 20px;
+    text-align: center;
+    border: groove white;
+}
+
+
+#news-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: red;
+}
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-item {
+
+    margin: 20px auto;
+    max-width: 600px; 
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.news-details {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+.news-date {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.news-description {
+    font-size: 16px;
+    color: white;
+}
+
+#contact-section {
+    padding: 30px;
+    text-align: center;
+}
+
+
+#contact-section h2 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+.contact-section p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: red;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.contact-form button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: red;
+   
+}
+
+.rating-container {
+    text-align: center;
+    padding: 20px;
+}
+.rating-container{
+    color: red;
+}
+
+
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: "\2605";
+}
+
+.rating input:checked ~ label {
+    color: #ffcc00; 
+}
+
+
+
+#rating-value {
+    font-weight: bold;
+    color: #ffcc00; 
+}
+
+
+
+
+.footer-1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#language {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+
+.footer-2 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+
+.footer-2 > div {
+    flex: 1;
+    margin: 0 20px;
+}
+
+
+.footer-2 h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+.footer-2 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.footer-2 li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.footer-2 a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-2 a:hover {
+    text-decoration: underline;
+}
+.nissan-social {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nissan-social li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nissan-social a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  
+  .nissan-social a:hover {
+    color: red;
+  }
+
+.footer-3 {
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.footer-3 > div {
+    margin-bottom: 20px;
+}
+
+
+
+.footer-3 p {
+    font-size: 14px;
+    margin-top: 20px;
+}

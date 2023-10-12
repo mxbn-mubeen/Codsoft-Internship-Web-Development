@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nissan| X-Trail</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.carlogos.org/car-logos/nissan-text-logo-2100x400.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#car-features">Order</a></li>
+                <li><a href="#video-section">Design</a></li>
+                <li><a href="#news-section">News</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section id="home">
+        <video autoplay muted loop id="background-video">
+            <source src="1.mp4" type="video/mp4">
+            
+        </video>
+        <div class="content">
+            <h1>  X-Trail</h1>
+            <p>Where Adventure Meets Safety, Space, and Style.</p>
+        </div>
+    </section>
+    
+    <section id="car-features">
+        <div class="feature">
+            <img src="1.jpg" alt="Feature 1">
+            <h3>4WD 7 Seats S</h3>
+            <ul>
+                <li>Paddle Shiffter</li>
+                <li>Intelligent All-Wheel Drive (4WD)</li>
+                <li>Terrain mode</li>
+                <li>Roof rails</li>
+                <li>Nissan Intelligent Key® with Push Button Ignition</li>   
+            </ul>
+            <h4>Strating price</h4>
+            <div class="price">$108,500</div>
+            <div class="prebook-button">
+                <a href="#">Prebook Now</a>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="2.jpg" alt="Feature 2">
+            <h3>2WD 5 Seats S</h3>
+            <ul>
+                <li>Paddle Shiffter</li>
+                <li>Led Lights</li>
+                <li>Rear Parking Sensors</li>
+                <li>Driving Mode(Sport,Normal)</li>
+                <li>17" alloy wheels</li>   
+            </ul>
+            <h4>Strating price</h4>
+            <div class="price">$99,000</div>
+            <div class="prebook-button">
+                <a href="#">Prebook Now</a>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="3.jpg" alt="Feature 3">
+            <h3>4WD 7 Seats SV + OPT</h3>
+            <ul>
+                <li>Motion Activated Liftgate with Foot sensor</li>
+                <li>Nissan Intelligent Mobility</li>
+                <li>18" Alloy wheels</li>
+                <li>Bose® Premium Audio System</li>
+                <li> 12.3" color touch-screen display with Navigation</li>   
+            </ul>
+            <h4>Strating price</h4>
+            <div class="price">$133,000</div>
+            <div class="prebook-button">
+                <a href="#">Prebook Now</a>
+            </div>
+        </div>
+
+        <section id="video-section">
+            <h2>Design</h2>
+            <div class="video-container">
+                <video controls autoplay>
+                    <source src="d.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        
+        
+        
+        <section id="news-section">
+            <h2>Latest News</h2>
+         <div class="news-container">    
+            <div class="news-item">
+                <img src="n1.jpeg" alt="News Image">
+                <div class="news-details">
+                    <p class="news-date">October 3, 2023</p>
+                    <p class="news-description"><b>YOKOHAMA, Japan-</b> In anticipation of the Japan Mobility Show in Tokyo later this month, Nissan Motor Co., Ltd. today announced its plans to excite visitors with an array of concept cars symbolizing the future of electrified mobility in a newly designed interactive booth set-up.
+                        Nissan's vision for the show embodies the company's unwavering dedication to enriching people’s lives and to revolutionizing the electric-vehicle (EV) landscape with transformative products and technologies. This vision will take form at the Nissan booth, which has been designed to excite visitors through an experience that melds the physical and virtual to take them through Nissan's key electrified technologies and initiatives.</p>
+                </div>
+            </div>
+        
+            <div class="news-item">
+                <img src="n2.jpeg" alt="News Image">
+                <div class="news-details">
+                    <p class="news-date">October 4, 2023</p>
+                    <p class="news-description"><b>YOKOHAMA, Japan-</b>In the lead up to the Japan Mobility Show in Tokyo later this month, Nissan Motor Co., Ltd. is revealing a series of exciting all-electric concept vehicles, the first of which is the Nissan Hyper Urban crossover, digitally revealed today.
+                        
+                        The series, to be revealed one by one* in digital form leading up to the show's press day on October 25, features the word hyper to express the heightened excitement they aim to bring. Each concept is represented by a symbolic character and has custom-tailored features that add value to unique lifestyles and diverse aspirations. The concepts help customers make a positive impact on the planet without compromising on style or fun.
+                        Nissan's vision for the Japan Mobility Show embodies the company's unwavering dedication to enriching people's lives and to revolutionizing the electric-vehicle (EV) landscape with transformative products and technologies.The Nissan Hyper Urban premiered digitally today at Nissan's new design presentation hall within the Nissan Technical Center in Atsugi, Kanagawa. It will appear at the Japan Mobility show in digital form.</p>
+                </div>
+            </div>
+         </div>
+        </section>
+
+        <section id="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us using the form below or through our contact information.</p>
+        
+            <div class="contact-form">
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        
+
+        </section>
+        
+ </section>
+    <div class="rating-container">
+        <h1>Rate us</h1>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+        </div>
+        
+    </div>
+
+    
+    <section id="footer">
+       
+     <footer class="footer-1">
+        <p>Language Options:</p>
+        <input type="list" name="language" id="language" list="languages">
+        <datalist id="languages">
+            <option value="English">
+            <option value="French">
+            <option value="Tamil">
+        </datalist>
+    </footer>
+
+    
+    <footer class="footer-2">
+        <div class="customer-service">
+            <h4>CUSTOMER SERVICE</h4>
+            <ul>
+                <li>Contact Us</li>
+                <li>Request a Call Back</li>
+                <li>Contact Fleet Sales</li>
+                <li>Apply for Finance</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="shopping-tools">
+            <h4>SHOPPING TOOLS</h4>
+            <ul>
+                <li>Book a Home Test Drive</li>
+                <li>Get an Online Quote</li>
+                <li>Buy or Reserve Online</li>
+                <li>Finance & Insurance</li>
+                <li>Compare Grades</li>
+                <li>Video Call With Sales Consultant</li>
+                <li>Find Your Perfect Nissan</li>
+                <li>Download Brochure</li>
+            </ul>
+        </div>
+        <div class="owner-services">
+            <h4>OWNER SERVICES</h4>
+            <ul>
+                <li>Owners Home</li>
+                <li>Nissan Service</li>
+                <li>Service Prices</li>
+                <li>Book a Service</li>
+                <li>Driver's Guide</li>
+                <li>Warranty</li>
+                <li>NissanConnect Services</li>
+            </ul>
+        </div>
+        <div class="nissan-social">
+            <h4>NISSAN SOCIAL</h4>
+           <ul>
+                <li><a href="https://www.facebook.com/nissanindia/" target="_blank">
+                    <img src="f.png" alt="Facebook"></a>
+                  </li>
+                <li><a href="https://www.youtube.com/nissan" target="_blank">
+                    <img src="y.png" alt="youtube"></a></li>
+                <li><a href="https://www.instagram.com/nissan/" target="_blank">
+                    <img src="i.png" alt="instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <footer class="footer-3">
+
+        <div class="copyright">
+            <p>&copy; Nissan 2023</p>
+        </div>
+    </footer>
+</section>   
+</body>
+</html>
